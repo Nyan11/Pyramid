@@ -3,7 +3,11 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'Pyramid',
       #directory : 'src',
+      #onWarningLog : true,
       #platforms : [ #pharo ]
     }
-  ]
+  ],
+  #testing: {
+    #defaultTimeout : 30
+  }
 }
